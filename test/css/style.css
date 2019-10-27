@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'LeksaSans';
+    src: url('../fonts/LeksaSans-Bold.otf');
+   }
+h1,h2,.countdown-time{
+    font-family: 'LeksaSans';
+    font-size: 40px;
+}
+.header .col-sm{
+    max-width: 25%;
+}
+.header .col-2{
+    display: contents;
+}
+.header .col-2 p{
+    width: 100px;
+    margin-bottom: 0;
+}
+.header {
+   padding: 10px 0;
+}
+p,span{
+    font-family: 'Ubuntu', sans-serif;
+}
+.call-btn,.form-button{
+    padding: 11px 40px;
+    border: 1px solid black;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: #232323;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.call-btn:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.info-block{
+    background-image: url(../images/bg_image_13788.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.info-block__banner{
+    width: 950px;
+    opacity: 0.94;
+    background-color: #ffffff;
+    padding: 30px 120px;
+}
+.info-block__banner h2{
+    font-size: 40px;
+}
+.info-block__banner p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 0;
+}
+.info-block__banner .text-yelow{
+    font-size: 20px;
+    font-weight: 400;
+    color: #c68e64;
+}
+.info-block__banner .baner-price{
+    color: #232323;
+    font-size: 27px;
+}
+.info-block__banner .baner-price span{
+    font-family: 'LeksaSans';
+}
+.info-block__banner .red-price{
+    color: #993535;
+}
+.countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: flex;
+    font-weight: 100;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .countdown-number {
+    padding: 10px;
+    width: 85px;  
+      margin-right: 10px;
+  }
+  
+  .countdown-time {
+    padding: 20px 5px;
+    background-image: url(../images/1_13799.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-size: contain;
+    font-family: 'LeksaSans';
+    line-height: 25px;
+    width: 70px;
+    color: #232323;
+    display: block;
+  }
+  
+  .countdown-text {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #000000;
+  }
+  .info-block__form-input{
+      margin-bottom: 20px;
+      border: 1px solid #000000;
+      background-color: #fff;
+      color: #000;
+      padding: 10px;
+      font-family: 'Ubuntu';
+      font-size: 14px;
+      width: 270px;
+  }
+  .info-block__form{
+    width: 400px;
+  }
+  .form-button{
+    color: #ffffff;
+    background-color: #000000;
+    width: 270px;
+  }
+  .info-block__image-block{
+      position: relative;
+  }
+  .info-block__badge{
+      position: absolute;
+      right: 10%;  
+      top: -5%;
+  }
+  .info-block__badge span{
+      position: absolute;
+      left: 30%;
+      top: 35%;
+  }
+  .section-approved{
+      background-color: #000;
+      padding: 20px 0;
+  }
+  .footer{
+    background-color: #232323;;
+    padding: 40px 0;    
+    color: white;
+    text-align: center;
+  }
+  .advantages-block, .aftermath-block{
+      padding: 80px 0;
+      background-color:#f0f6f6;
+      text-align: center;
+  }
+  .aftermath-block{
+      background-image: url(../images/bg_13329.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .form-block{
+      padding-left: 0;
+  }
+  section p{
+    font-size: 18px;
+  }
+  .advantages-block__image{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 193px;
+    height: 223px;
+    background-image: url(../images/hex.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .aftermath-block__image img{
+    width: 250px;
+  }
+  .aftermath-block__image+h2{
+      margin-top: 10px;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 700;
+  }
+  .popup{
+      position: absolute;
+      right: 0;
+      padding: 40px 20px;
+      width: 350px;
+      display: flex;
+      background-color: rgba(0,0,0, 0.8);
+      color: #fff;
+      z-index: 100;
+      display: none;
+  }
+  .popup .logo{
+    margin-right: 15px;
+    height: 45px;
+  }
+  .popup p{
+      margin-bottom: 0;
+  }
+  .close{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/cross_7278.png);
+    cursor: pointer;
+  }
+
+  @media (min-width: 768px) and (max-width:990px) {
+    *{
+        font-size: 12px;
+    }  
+    .header{
+        padding: 15px 0;
+    }
+    .header img{
+         width: 100px ;
+      }
+      .header .col-2 img{
+          width: 40px;
+      }
+    .header .logo img{
+        width: 150px;
+    }
+    .header .col-2{
+        display: contents;
+    }
+    .header p{
+        font-size: 12px !important;
+        width: 80px;
+        margin-bottom: 0;
+    }
+    .call-btn{
+        font-size: 12px;
+        padding: 15px;
+        width: 155px;
+        padding: 11px 0;
+    }
+    h1,h2,.countdown-time{
+        font-family: 'LeksaSans';
+        font-size: 30px !important;
+    }
+    p,span{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px !important;
+    }
+    .info-block p{
+        font-size: 14px !important;
+    }
+    .info-block__image-block img{
+        width: 170px;
+    }
+    .info-block__banner{
+        padding: 25px 100px;
+    }
+    .baner-price, .baner-price span, s{
+        font-size: 22px !important;
+    }
+    .info-block__badge span{
+        font-size: 20px !important;
+        font-weight: 700;
+    }
+    .info-block__badge img{
+        height: 85px;
+        width: 85px;
+    }
+    .info-block__form-input{
+        width: 210px;
+    }
+    .form-button{
+        width: 210px;
+        font-size: 12px;
+    }
+    .info-block__form{
+        width: 250px;
+    }
+    .countdown-number{
+        width: 70px;
+        margin-right: 5px;
+    }
+    .countdown-time{
+        width: 50px;
+        padding: 10px 5px;
+    }
+    .section-approved img{
+        width: 75px;
+    }
+    .advantages-block__image{
+       width: 134px;
+       height: 154px;
+       margin-right: 0 !important;
+    }
+    .advantages-block__image img{
+        width: 100px;
+    }
+    .aftermath-block__image img{
+        width: 200px;
+    }
+    .aftermath-block__image+h2{
+        font-size: 15px !important;
+    }
+    .footer p{
+        font-size: 12px !important;
+    }
+  }
+  @media (min-width: 360px) and (max-width: 768px) {
+    .container{
+        width: 360px;
+    }
+  
+    h2,h1{
+        font-size: 24px !important;
+        text-align: center;
+    }
+    .header .col-2,.header .col-3:last-child{
+        display: none;
+    }
+    .header .col-3:first-child{
+        -ms-flex: 0 0 100%;
+         flex: 0 0 100%;
+         max-width: 100%;
+    }
+    .info-block__banner{
+        padding: 10px;
+        justify-content: start !important;
+    }
+    .info-block__banner .text-yelow{
+        font-size: 14px;
+        text-align: center;
+    }
+    .info-block__form-input{
+        width: 210px;
+        margin-bottom: 10px;
+    }
+    .form-button{
+        width: 210px;
+        font-size: 12px;
+    }
+    .info-block__form{
+        width: 210px;
+        margin: 0 auto;
+    }
+    .countdown{
+        justify-content: center;
+    }
+    .countdown-number{
+        width: 80px;
+        margin-right: 5px;
+    }
+    .countdown-time{
+        width: 60px;
+        padding: 15px 5px;
+    }
+    .section-approved img{
+        width: 75px;
+    }
+    .advantages-block__image{
+       width: 134px;
+       height: 154px;
+       margin-right: 0 !important;
+    }
+    .info-block__image-block p{
+        text-align: center;
+    }
+    .info-block__badge img{
+        width: 80px;
+    }
+    .info-block__badge span{
+        font-family: 'ubuntu';
+        font-size: 20px;
+        font-weight: 700;
+        left: 20%;
+        top: 25%;
+    }
+    .form-block{
+        padding-left: 15px;
+    }
+    .advantages-block__image img{
+        width: 100px;
+    }
+    .col-sm-4{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-6{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+  }
